@@ -11,21 +11,7 @@ Este script tiene como objetivo procesar archivos PDF de facturas, extraer infor
 ## Instalación
 
 1. Clona o descarga el repositorio en tu máquina local.
-2. (OPCIONAL)   
-    **Windows**
-    ```
-    cd inserte-ubicación-del-script
-    python -m venv entornoScript
-    source entornoScript/Scripts/activate
-    ```
-    
-    **Unix o MacOs**
-   
-    ```sh directorio del script
-    python -m venv entornoScript      
-    source entornoScript/bin/activate
-    ```
-4. Instala las dependencias necesarias:
+2. Instala las dependencias necesarias:
     ```
     pip install -r inserte-ubicación-del-script/requirements.txt
     ```
