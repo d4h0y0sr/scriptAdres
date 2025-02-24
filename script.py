@@ -39,12 +39,10 @@ pdf_directory = os.path.join(script_directory, 'facturas')
 # Iterar sobre los archivos PDF en el directorio
 for filename in os.listdir(pdf_directory):    
     file_path = os.path.join(pdf_directory, filename)
-    print(filename)
     try:
         # Leer el archivo PDF
         reader = PdfReader(file_path)
         num_pages = len(reader.pages)
-        print(num_pages)
         # Extraer texto de todas las páginas
         text = ''
         for page in reader.pages:
