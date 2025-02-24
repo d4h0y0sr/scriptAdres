@@ -10,7 +10,7 @@ Este script tiene como objetivo procesar archivos PDF de facturas, extraer infor
 
 ## Instalación
 
-1. Clona el repositorio en tu máquina local.
+1. Clona o descarga el repositorio en tu máquina local.
 2. (OPCIONAL)   
     **Windows**
     ```
