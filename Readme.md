@@ -18,14 +18,16 @@ Este script tiene como objetivo procesar archivos PDF de facturas, extraer infor
     python -m venv entornoScript
     source entornoScript/Scripts/activate
     ```
-    ** Unix o MacOs **    
+    
+    **Unix o MacOs**
+   
     ```sh directorio del script
     python -m venv entornoScript      
     source entornoScript/bin/activate
     ```
-3. Instala las dependencias necesarias:
-    ```sh
-    pip install -r requirements.txt
+4. Instala las dependencias necesarias:
+    ```
+    pip install -r inserte-ubicación-del-script/requirements.txt
     ```
 
 ## Ejecución
